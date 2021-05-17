@@ -1,0 +1,171 @@
+
+:root{
+    --vermelho: #E50914;
+    --preto:#000;
+    --branco: #fff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*Elementos Base*/
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--branco);
+}
+
+header .container{  
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    padding: 15px; 
+    width: 100%;
+    
+}
+
+header .logo img{
+    width: 15%;
+    height: 15%;
+    margin: 1% 1% 1% 5%;
+   
+}
+.menu{
+    margin-left: -70%;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:var(--branco);
+    margin-left:10px;
+    font-size: 14px;
+    
+}
+.menu a:hover{
+    color: darkgrey;
+}
+
+.controle{      
+    margin-right: 2%;
+   
+}
+.controle a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200; 
+    text-decoration: none;    
+    color:var(--branco);
+    margin-left:35px;
+    font-size: 18px;    
+}
+.controle a:hover{
+    color: gray;   
+}
+.controle .fas.fa-grin-wink {
+    font-size: 30px;
+}
+.controle .fa-grin-wink:hover{
+    color: yellow;
+}   
+
+
+
+/*Filme Principal*/
+.filme-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.918)100%), url(/img/capa-house.jpg);    
+    background-size: cover;
+       
+        
+}
+
+.filme-principal .container{  
+    
+    margin-left: 30px;      
+    
+   
+}
+.filme-principal .titulo{
+    font-size: 50px;
+    margin-top:  1%;
+    font-family: monospace;
+}
+.filme-principal .descricao{
+    width: 50%;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filme-principal .fas .fa-star i{
+    margin-top: 20px;
+}
+
+.botoes{
+    display: flex;
+    
+}
+.botao{
+    background: rgba(0, 0, 0,.40);
+    border:none;
+    color:  #fff;
+    padding: 15px;
+    margin: 30px ;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition:.4s, ease all;
+}
+.botao i{
+    margin-right: 10px;
+}
+
+.botao:hover{
+    background: #fff;
+    color: black;
+}
+.myconfig{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.carrossel-filmes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.carrossel-filmes .info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: flex;
+   margin-right: 85%;
+}
+.carrossel-filmes .info a{
+    text-decoration: none;
+    color: #fff;
+}
+.carrossel-filmes .info a:hover{
+    text-decoration: none;
+    color:var(--vermelho)
+}
+
+.box-filme{
+    height: 40%;
+    width: 40%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+

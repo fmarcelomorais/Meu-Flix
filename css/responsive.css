@@ -1,0 +1,91 @@
+@media screen and (max-width:400px){
+  
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    header .container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .container .logo img{
+      margin-left: 5%;
+    }
+    .filme-principal .titulo{
+        font-size: 25px;
+        
+    }
+
+    .filme-principal .descricao{
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .menu{
+        
+    }
+    .controle{
+       
+    } 
+    .controle .fas.fa-grin-wink {
+        font-size: 12px;
+    }   
+    
+
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .botao{
+        font-size: 12px;
+        background: rgba(255, 255, 255, 0.219);
+    }
+   
+}
+@media screen and (max-width:700px){
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    header .container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .container .logo img{
+      margin-left:40%;
+    }
+    .filme-principal .titulo{
+        font-size: 35px;
+        
+    }
+
+    .filme-principal .descricao{
+        font-size: 12px;
+        width: 95%;
+    }
+
+    header .menu{
+        margin:1% 1%;
+    }
+    header .controle{
+        margin-top: 1% 1%;
+    }
+    
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .botao{
+        font-size: 12px;
+        background: rgba(255, 255, 255, 0.219);
+    }
+
+}
+
+

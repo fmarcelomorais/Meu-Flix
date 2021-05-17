@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <!--Carrossel Css-->    
+    <link rel="stylesheet" href="/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css">
+    <!--Fontes-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <!---->
+    <title>MeuFlix </title>
+</head>
+<div>
+    <header>        
+    <div class="container">
+        <!--<h2 class="logo">MEUFLIX</h2> -->
+        <div class="logo">
+            <img src="/img/meuflix-logo.png">
+        </div>
+
+        <nav class="menu">
+            <a href="">Inicio</a>
+            <a href="">Séries</a>
+            <a href="">Filmes</a>
+            <a href="">Bombando</a>
+            <a href="">Minha Lista</a>            
+        </nav>
+        
+        <nav class="controle">
+            <a href=""><i class="fas fa-search"></i></a>
+            <a href="">MARCELO</a>
+            <a href=""><i class="fas fa-gift"></i></a>
+            <a href=""><i class="far fa-bell"></i></a>     
+            <a href=""><i class="fas fa-grin-wink"></i></a>     
+        </nav>
+        
+    </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">
+                    Num drama sobre as consequências do poder e da corrupção, Francis Underwood (Kevin Spacey) está sedento por sucesso e nada o detém. Trata-se de uma história onde são ultrapassados os limites para satisfazer o desejo de um homem que ambiciona governar o mundo..                    
+                </p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <div class="botoes">
+                <button roule="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button roule="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+        </div>
+    </main>
+
+        
+    <div class="carrossel-filmes">
+        <div class="info"><a href="#">Continuar Assistindo</a></div>       
+        <div class="owl-carousel owl-theme myconfig" >            
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg"></div>
+        </div>
+    </div>
+        
+    <div class="carrossel-filmes">
+        <div class="info"><a href="#" class="infolink">Continuar Assistindo</a></div>       
+        <div class="owl-carousel owl-theme myconfig" >            
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg"></div>
+        </div>
+    </div>
+
+    <div class="carrossel-filmes">
+        <div class="info"><a href="#">Continuar Assistindo</a></div>       
+        <div class="owl-carousel owl-theme myconfig" >            
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg"></div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg"></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/bf3d1f4e0f.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+</script>
+
+</body>
+</html>
