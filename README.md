@@ -11,6 +11,6 @@
 
 ## Conhecimentos adquiridos
 
-> Aprendi sobre Responsividade e Estrutura de uma página HTML, link de css externo e propriedades do css - Display Flex
+> Aprendi sobre Responsividade e Estrutura de uma página HTML, link de css externo e propriedades do css - Flex Box
 
 
